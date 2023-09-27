@@ -10,6 +10,7 @@ public class Main1 {
 	DateCity customer = (DateCity) context.getBean("datecity");
 	System.out.println(customer.getDate());
 	System.out.println(customer.getName());
+	System.out.println(customer.getCity());
 	context.registerShutdownHook();
 }
 }

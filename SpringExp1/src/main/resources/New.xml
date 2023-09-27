@@ -6,7 +6,7 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
 	<context:annotation-config />
 	
-	<bean id="datecity" class="com.infinite.beans.DateCity">
+	<bean id="datecity" class="com.infinite.beans.DateCity" scope="singleton">
 		<property name="date" value="2023-09-01" />
 		<property name="name" value="sai kiran" />
 		<property name="city" value="hyderabad" />
