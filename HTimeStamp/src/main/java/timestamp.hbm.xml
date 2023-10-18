@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping SYSTEM
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.infinite.pojo.TimeStamp" table="Login4">
+		<id name="loginid" type="int" column="loginid">
+			<generator class="native"></generator>
+		</id>
+		<property name="username" column="Username" type="string"></property>
+		<property name="password" column="password" type="string"></property>
+		<property name="time" column="time" type="timestamp"></property>
+	</class>
+</hibernate-mapping>
