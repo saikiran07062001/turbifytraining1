@@ -1,0 +1,8 @@
+org\infinite\pojo\HqlSelect.class
+org\infinite\dbutils\HibernateUtil.class
+org\infinite\pojo\HqlTest.class
+org\infinite\pojo\Student.class
+org\infinite\pojo\TestCriteria.class
+org\infinite\pojo\Employee.class
+org\infinite\test\TestCache.class
+org\infinite\test\TestClass.class
